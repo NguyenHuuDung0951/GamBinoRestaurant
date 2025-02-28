@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -19,20 +18,16 @@ header {
     max-width: 1200px;
     margin: 0 auto;
 }
-
-
 .navbar-nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-
 .nav-link {
     font-size: 18px;
     padding: 10px 15px;
     transition: background-color 0.3s;
 }
-
 .nav-link:hover {
     background-color: #007bff;
     border-radius: 5px;
@@ -46,18 +41,15 @@ header {
     align-items: center;
     padding-right: 10%;
 }
-
 .menuTaskBar ul {
     display: flex;
     padding: 10px 20px;
     list-style-type: none;
 }
-
 .menuTaskBar li {
     width: fit-content;
     height: fit-content;
 }
-
 .menuTaskBar a {
     text-decoration: none;
     padding: 20px;
@@ -66,7 +58,6 @@ header {
 .main-content .bg-img {
     width: 100%;
 }
-
 .main-content .content {
     position: absolute;
     top: 50%;
@@ -81,15 +72,13 @@ header {
     color: rgb(143, 139, 139);
     margin: 20px 20px;
 }
-
 .main-content .content > h2 {
     margin: 20px 20px;
     padding: 20px;
     font-size: 28px;
     color: #777;
 }
-
-.main-content .content button {
+.content button {
     padding: 20px;
     margin: 20px 20px;
     background-color: rgb(241, 81, 63);
@@ -99,22 +88,22 @@ header {
     color: white;
     cursor: pointer;
 }
-.main-content .content button:hover{
+ .content button:hover{
     background-color: red;
 }
-.main-content .content .phone {
+ .content .phone {
     position: absolute;
     top: 80%;
     left: 35%;
     font-size: 20px;
     font-family: cursive;
 }
-.main-content .content .phone span:hover{
+.content .phone span:hover{
     text-decoration: underline;
     color: salmon;
 
 }
-.main-content .content img {
+.content img {
     width: 20px;
     height: 20px;
 }
@@ -126,13 +115,13 @@ header {
 }
 
 
- .title h1 {
+.title h1 {
     font-size: 40px;
     padding: 10px;
     margin: 40px 20px 20px 20px;
 }
 
- .title h3 {
+.title h3 {
     font-size: 20px;
     color: gray;
 }
@@ -200,13 +189,13 @@ header {
     margin-left: 150px;
     
 }
-.paision .container-paision .content-aboutus h4{
+.content-aboutus h4{
     font-size: 30px;
     color: white;
     margin-bottom: 100px;
     margin-left: 150px;
 }
-.paision .container-paision .content-aboutus button{
+.content-aboutus button{
     margin-left: 300px;
     margin-bottom: 200px;
     padding: 12px 24px;
@@ -220,16 +209,16 @@ header {
 
 }
 
-.paision .container-paision .content-aboutus button a{
+.content-aboutus button a{
     text-decoration: none;
     color: white;
     
 }
-.paision .container-paision .content-aboutus button:hover{
+ .content-aboutus button:hover{
     background-color: #ff4040;
     
 }
-.paision .container-paision .row .col-md-6 .text-center img.meals {
+.row .col-md-6 .text-center img.meals {
     width: 100%; 
     height: auto; 
     max-width: 500px; 
@@ -286,24 +275,20 @@ header {
     height: auto;
     
 }
-
 h3 {
     font-size: 1.5rem;
     margin: 10px 0;
     color: #2e2e2e;
 }
-
 p {
     font-size: 1rem;
     margin: 20px;
     color: #555;
     text-align: left;
 }
-
 p strong {
     color: #2e2e2e;
 }
-
 .newPasta .text-pasta1 h3{
     font-size: 50px;
     color: #2c3e50;
@@ -568,7 +553,7 @@ p strong {
     font-size: 40px;
 }
 
- .content p {
+.content p {
     color: #7f8c8d;
     font-size: 14px;
     object-fit: cover   ;
@@ -591,9 +576,9 @@ p strong {
     font-size: 16px;
 }
 
+
 .gift-cards {
     background: url(../image/bg-organe.png) no-repeat center center fixed; 
-    background-size: cover;
     position: relative;
     height: 500px;
 }
@@ -675,6 +660,7 @@ p strong {
     background-color: #2c3e50;
     color: white;
 }
+
 .slider {
     display: flex;
     overflow-x: scroll;
@@ -833,6 +819,57 @@ p strong {
 button:hover {
     background: #e64a19;
 }
+.about {
+    background: url('../image/bg-header2.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.about .casual-img {
+    width: 200px;
+    margin-left: 250px; /* Căn giữa hình ảnh */
+    border-radius: 10px; /* Thêm bo tròn góc nếu cần */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng nếu cần */
+}
+.about .casual-img img{
+    width: 400px;
+}
+.casual-content{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    left: 50%;
+    text-align: left;
+}
+.casual-content h3{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #344351;
+}
+.casual-content h4{
+    font-size: 16px;
+    margin: 30px 30px;
+}
+.casual-content p{
+    font-size: 16px;
+    margin: 0 40px 0 40px;
+}
+.casual-content button{
+    margin: 10px 50px 10px 200px  ;
+    padding: 10px 10px;
+    background: rgb(232, 78, 60);
+    border-radius: 20px 20px;
+    border: 1px solid whitesmoke;
+}
+.casual-content button a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.casual-content button:hover{
+    background-color: red;
+}
+
 .parking .icon img{
     width: 100px;
 }
