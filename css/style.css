@@ -1,0 +1,917 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    background-color: rgb(241, 237, 237);
+}
+.logo  img {
+    width: 220px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+    color: #fff;
+}
+.menuTaskBar {
+    position: absolute;
+    top:5px;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.menuTaskBar ul {
+    display: flex;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+.menuTaskBar li {
+    width: fit-content;
+    height: fit-content;
+}
+
+.menuTaskBar a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(122, 115, 115);
+}
+.main-content .bg-img {
+    width: 100%;
+}
+
+.main-content .content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    margin: 20px 20px;
+}
+.main-content .content > h1 {
+    font-size: 60px;
+    padding: 20px;
+    color: rgb(143, 139, 139);
+    margin: 20px 20px;
+}
+
+.main-content .content > h2 {
+    margin: 20px 20px;
+    padding: 20px;
+    font-size: 28px;
+    color: #777;
+}
+
+.main-content .content button {
+    padding: 20px;
+    margin: 20px 20px;
+    background-color: rgb(241, 81, 63);
+    border: 1px solid rgb(210, 56, 39);
+    border-radius: 10px 30px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.main-content .content button:hover{
+    background-color: red;
+}
+.main-content .content .phone {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    font-size: 20px;
+    font-family: cursive;
+}
+.main-content .content .phone span:hover{
+    text-decoration: underline;
+    color: salmon;
+
+}
+.main-content .content img {
+    width: 20px;
+    height: 20px;
+}
+
+.benefit {
+    padding: 10px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+
+ .title h1 {
+    font-size: 40px;
+    padding: 10px;
+    margin: 40px 20px 20px 20px;
+}
+
+ .title h3 {
+    font-size: 20px;
+    color: gray;
+}
+.content a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    color: #f5f5f5;
+}
+.phone a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+ .img-fluid{
+    width: 200px;
+    margin: 20px 20px;
+    padding: 40px 30px;
+}
+
+
+.container h2::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color: orange;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.container h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+.container p{
+    font-size: 16px;
+    color: #7f8c8d;
+    text-align: left;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    section .item {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+.paision .container-paision{
+    background: url('../image/bg-menu.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.paision .container-paision .content-aboutus h2{
+    font-size: 60px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    
+}
+.paision .container-paision .content-aboutus h4{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 100px;
+    margin-left: 150px;
+}
+.paision .container-paision .content-aboutus button{
+    margin-left: 300px;
+    margin-bottom: 200px;
+    padding: 12px 24px;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 15px 30px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.paision .container-paision .content-aboutus button a{
+    text-decoration: none;
+    color: white;
+    
+}
+.paision .container-paision .content-aboutus button:hover{
+    background-color: #ff4040;
+    
+}
+.paision .container-paision .row .col-md-6 .text-center img.meals {
+    width: 100%; 
+    height: auto; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    display: block; 
+    
+}
+.newPasta{
+    background-image: url(../image/bg-01.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+
+.newPasta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px;
+    background-color: #fdfbf8;
+}
+
+.item-pasta {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.parent1 > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parent1 > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.img-pasta img {
+    width: 295px;
+    height: auto;
+    
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #2e2e2e;
+}
+
+p {
+    font-size: 1rem;
+    margin: 20px;
+    color: #555;
+    text-align: left;
+}
+
+p strong {
+    color: #2e2e2e;
+}
+
+.newPasta .text-pasta1 h3{
+    font-size: 50px;
+    color: #2c3e50;
+    padding: 60px 40px;
+}
+.text-pasta1 p{
+    font-size: 20px;
+    color: #2c3e50;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+.newPasta .text-pasta2 h3{
+    margin-top: 40px;
+}
+.newPasta .text-pasta2 span{
+    font-size: 25px;
+    color: #2c3e50;
+}
+.text-pasta2 a{
+    color: red;
+}
+@media (max-width: 768px) {
+    .parent1 {
+        grid-template-columns: 1fr;
+    }
+    .parent1 > div {
+        grid-template-columns: 1fr;
+    }
+}
+.categories {
+    background-image: url(../image/bg-header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1; 
+}
+.categories .content2 {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: 25%;
+    right: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color:#333;
+}
+.categories .content2 h3{
+    padding-top: 10px;
+    font-size: 39px;
+    color: salmon;
+   
+}
+
+.categories .bg-about-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.categories .meals .meals-item img{
+    width: 120px;
+    height: auto;    
+}
+.categories .meals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categories .meals-item{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px;
+}
+.categories .meals-item div{
+    flex: 1;
+    margin: 10px 10px;
+    text-align: center;
+}
+.categories .meals-item h3{
+    font-size: 24px;
+    margin: 10px 0;
+    color: #777;
+}
+.categories .meals-item a{
+    text-decoration: none;
+    color: gray;
+}
+
+.categories .meals-item .text-content {
+    flex: 1;
+}
+.categories .meals-item a:hover{
+    color: salmon;
+}
+.categories .meals-item p{
+    font-size: 20px;
+    color: gray;
+}
+.meal14 img {
+    width: 54%;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    position: relative; 
+    left: 23%;
+    right: 23%;
+    z-index: 2; 
+}
+
+.menu {
+    background-image: url(../image/bg-7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 140px 140px;
+    position: relative;
+    z-index: 0; 
+}
+
+
+.menu{
+    margin-top: -140px;
+}
+.menu .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    
+}
+
+.menu .item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu .item h5 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+.menu .item .price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.2em;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.menu .item p {
+    margin: 5px 0 0;
+    color: #7f8c8d;
+}
+.button-menu {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.button-menu button {
+    background-color: rgb(233, 83, 66); 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    margin: 10px;
+    border-radius: 20px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.button-menu button:hover {
+    background-color: red; 
+}
+
+.button-menu button a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.button-menu button a:hover {
+    color: white; 
+}
+
+.offer {
+   background-image: url(../image/space4.jpg);
+   background-size: cover;
+}
+
+.offer .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 200px;
+}
+
+.offer .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+
+}
+
+.offer .item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.offer .item h5 {
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+.offer .parent .item .text {
+    margin: 20px 20px;
+    padding: 10px 10px;
+    float: left;
+    text-align: left;
+
+}
+.offer .item p {
+    color: #7f8c8d;
+}
+
+.offer .item button {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offer .item button:hover {
+    background: #c0392b;
+}
+.cater {
+    background: #f9f9f9;
+    padding-top: 10px;
+    margin-top: -100px;
+    height: auto;
+}
+.container-full{
+    padding: 0;
+    margin: 0;
+}
+.cater .row{
+    margin: -70px;
+}
+.content{
+    margin-left: 50px;
+}
+.content h2 {
+    color: #2c3e50;
+    margin: 20px;
+    font-size: 40px;
+}
+
+ .content p {
+    color: #7f8c8d;
+    font-size: 14px;
+    object-fit: cover   ;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content li {
+    margin-bottom: 20px;
+}
+.cater .img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+
+.cater .content h3 {
+    font-size: 16px;
+}
+
+.gift-cards {
+    background: url(../image/bg-organe.png) no-repeat center center fixed; 
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+.gift-cards .parent2{
+   position:absolute;
+   top: -250px;
+}
+.gift-cards .container {
+    padding: 0; 
+    margin: 0; 
+    width: 100%; 
+}
+
+.gift-cards .parent2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div2 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.div3 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+ .parent2 .icon {
+    width: 80px;
+}
+ .parent2 .div2,.div3{
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+}
+
+.parent2 h3{
+    color: #2c3e50;
+}
+.parent2 p{
+    text-align: left;
+    margin: 10px 10px;
+    color: #2c3e50;
+    font-size: 16px;
+}
+.parent2 .div1 h3{
+    color: white;
+    margin: 30px;
+}
+.parent2 .div1 p {
+    color: white;
+    margin: 30px;
+}
+.parent2 .div1 a{
+    text-decoration: none;
+
+}
+.parent2 a{
+    color: #ff4040;
+    font-size: 14px;
+}
+.parent2 .div1 button{
+    border-radius: 20px 20px;
+    padding: 10px;
+    margin:0px 0px 20px 100px;
+    border: 1px solid white;
+    
+}
+.parent2 .div1 button:hover{
+    background-color: #2c3e50;
+    color: white;
+}
+.slider {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 20px;
+    background-color: #2b2b2b;
+    scroll-behavior: smooth;
+}
+
+.slider img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    scroll-snap-align: start;
+}
+.navigation {
+    position: absolute;
+    bottom: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 auto;
+}
+
+.navigation button {
+    background-color: #ff6600;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    pointer-events: auto;
+}
+.navigation button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.slider-meals {
+    position: relative;
+}
+
+#prevBtn, #nextBtn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#prevBtn:hover, #nextBtn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.news-section {
+    background-image: url(../image/bg-02.svg);
+    background-size: cover;
+    text-align: center;
+    padding: 80px;
+}
+.articles {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    
+}
+.news-section p{
+    text-align: center;
+    font-size: 16   px;
+    margin: 40px ;
+}
+.news-section h2{
+    font-size: 40px;
+    color: #2c3e50;
+}
+.article {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+}
+.article2 {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+}
+.article1 {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+}
+.article1 img{
+    width: 110%;
+    height: 550px;
+    display: block;
+}
+.article img {
+    width: 110%;
+    height:auto;
+    display: block;
+}
+.article2 img{
+    width: 104%;
+    height: auto;
+    display: block;
+}
+.article-overlay {
+   position: absolute;
+   bottom: 10%;
+   text-align: left;
+   margin: 20px;
+   color: whitesmoke;
+}
+.article-overlay h3 {
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+.article-overlay p {
+    font-size: 14px;
+    margin: 0 0 10px;
+    color: whitesmoke;
+}
+.article-overlay a {
+    text-decoration: none;
+    color: #ffcccb;
+    font-weight: bold;
+}
+.article button {
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.article2 button{
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #e64a19;
+}
+.parking .icon img{
+    width: 100px;
+}
+footer{
+    background-color: rgba(245, 236, 204, 0.678);
+}
+.parking {
+    padding: 100px 300px 100px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #2c3e50;
+}
+.col-md-4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.parking h3{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.parking p{
+    font-size: 14px;
+}
+.parking .icon img{
+    width: 70px;
+}
+.information .img-fluid{
+    width: 50px;
+}
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 0;
+
+}
+
+.col-md-3 {
+    flex: 1;
+    max-width: 300px;
+}
+
+.col-md-3 img {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 15px;
+}
+
+.col-md-3 h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.col-md-3 span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.col-md-3 a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.95em;
+}
+
+.col-md-3 a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+
+.createBy {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    color: #2c3e50;
+    border-top: 1px solid #2c3e50;
+}
